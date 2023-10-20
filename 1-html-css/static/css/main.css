@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Light.ttf');
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #2F3B4C
+}
+
+.h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.subtitle_light {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.button a {
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_filled_blue a {
+    padding: 20px 24px;
+    color: white;
+    background-color: #514FAE;
+    font-weight: 700;
+
+    transition: ease background-color 300ms;
+}
+
+.button_filled_blue a:hover {
+    background-color: #413F8B;
+}
+
+.app_buttons .button_filled_black {
+    flex: 0 0 148px;
+}
+
+.button_filled_black a {
+    padding: 8px 16px;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    min-height: 44px;
+}
+
+.button_text a {
+    color: #514FAE;
+    font-weight: 700;
+}
+
+.button_text a:hover {
+    color: #413F8B;
+}
+
+
+

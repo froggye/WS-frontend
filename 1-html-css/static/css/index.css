@@ -1,0 +1,104 @@
+
+.main {
+    max-width: 375px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 32px 24px;
+
+    background-color: #F1F9FD;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo__img {
+    max-width: 100%;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content_head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content_opportunities {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    background-color: white;
+    border-radius: 12px;
+}
+
+
+.opportunities__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+.opportunities__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.opportunities__list .item {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.item__img {
+    border-radius: 20px;
+    overflow: visible;
+    height: 26px;
+    width: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__img img {
+    min-height: 33px;
+    min-width: 33px;
+}
+
+.img_green {
+    background-color: #D1F5EE;
+}
+
+.img_purple {
+    background-color: #EEE7FF;
+}
+
+.img_yellow {
+    background-color: #FDF4DF;
+}
+
+
+.app_buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 8px;
+}
