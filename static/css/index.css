@@ -1,5 +1,5 @@
 
-.main {
+.body-container {
     max-width: 375px;
     min-height: 100vh;
     margin: 0 auto;
@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    justify-content: center;
 }
 
 
@@ -30,13 +29,14 @@
     gap: 24px;
 }
 
-.content_head {
+.head-titles {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 4px;
 }
 
-.content_opportunities {
+.opportunities {
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -47,58 +47,38 @@
 }
 
 
-.opportunities__title {
+.opportunities__text {
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 
 .opportunities__list {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
 }
 
 .opportunities__list .item {
     display: flex;
     flex-direction: row;
-    gap: 12px;
+    gap: 8px;
     align-items: center;
 }
 
-
-.item__img {
-    border-radius: 20px;
-    overflow: visible;
-    height: 26px;
-    width: 36px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.item__img img {
-    min-height: 33px;
-    min-width: 33px;
-}
-
-.img_green {
-    background-color: #D1F5EE;
-}
-
-.img_purple {
-    background-color: #EEE7FF;
-}
-
-.img_yellow {
-    background-color: #FDF4DF;
+.item__text {
+    width: 100%;
+    line-height: 1.2em;
 }
 
 
-.app_buttons {
+.app-buttons {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 8px 16px;
+}
+
+.app-buttons__link {
+    display: block;
 }

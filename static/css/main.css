@@ -19,31 +19,32 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    color: #2F3B4C
+    /*color: #2F3B4C*/
 }
 
-.h1 {
+.title {
+    text-align: center;
+    line-height: 1.2em;
+}
+
+h1 {
     font-size: 24px;
     font-weight: 700;
-    text-align: center;
-    line-height: 1.5em;
 }
 
-.subtitle_light {
+.title--h2-light {
     font-size: 18px;
     font-weight: 300;
-    text-align: center;
-    line-height: 1.5em;
 }
 
-.button a {
+.button {
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.button_filled_blue a {
+.button--filled-blue {
     padding: 20px 24px;
     color: white;
     background-color: #514FAE;
@@ -52,28 +53,16 @@ body {
     transition: ease background-color 300ms;
 }
 
-.button_filled_blue a:hover {
+.button--filled-blue:hover {
     background-color: #413F8B;
 }
 
-.app_buttons .button_filled_black {
-    flex: 0 0 148px;
-}
-
-.button_filled_black a {
-    padding: 8px 16px;
-    color: white;
-    background-color: black;
-    font-weight: 700;
-    min-height: 44px;
-}
-
-.button_text a {
+.button--text {
     color: #514FAE;
     font-weight: 700;
 }
 
-.button_text a:hover {
+.button--text:hover {
     color: #413F8B;
 }
 

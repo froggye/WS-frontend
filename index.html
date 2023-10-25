@@ -11,68 +11,52 @@
     <link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
-<div class="main">
-    <section class="logo">
+<div class="body-container">
+    <header class="logo">
         <img src="static/img/logo.png" alt="Logoipsum" class="logo__img">
-    </section>
-    <section class="content">
-        <section class="content_head">
-            <h1 class="h1">Mary Smith</h1>
-            <p class="subtitle_light">600 баллов</p>
+    </header>
+    <main class="content">
+        <section class="head-titles">
+            <h1 class="title">Mary Smith</h1>
+            <h2 class="title title--h2-light">600 баллов</h2>
         </section>
-        <section class="content_opportunities">
-            <p class="opportunities__title">Больше возможностей<br>«❤ !== frontend»!</p>
+        <section class="opportunities">
+            <p class="opportunities__text">Больше возможностей<br>«❤ !== frontend»!</p>
             <ul class="opportunities__list">
                 <li class="item">
-                    <div class="item__img img_green">
-                        <img src="static/img/list-green.svg" alt="&bull;">
-                    </div>
+                    <img src="static/img/list-green.svg" alt="&bull;">
                     <p class="item__text">
                         Важное сообщение<br>в две строки
                     </p>
                 </li>
                 <li class="item">
-                    <div class="item__img img_yellow">
-                        <img src="static/img/list-yellow.svg" alt="&bull;">
-                    </div>
+                    <img src="static/img/list-yellow.svg" alt="&bull;">
                     <p class="item__text">
                         Делай домашку<br>или он придёт за тобой
                     </p>
                 </li>
                 <li class="item">
-                    <div class="item__img img_purple">
-                        <img src="static/img/list-purple.svg" alt="&bull;">
-                    </div>
+                    <img src="static/img/list-purple.svg" alt="&bull;">
                     <p class="item__text">
                         Фронтенд – это для<br>сильных духом (и не только)
                     </p>
                 </li>
             </ul>
         </section>
-        <div class="button button_filled_blue">
-            <a href="https://google.com">Перейти в мобильное приложение</a>
-        </div>
-        <div class="button button_text">
-            <a href="https://google.com">Узнать больше о проекте</a>
-        </div>
-        <section class="app_buttons">
-            <div class="button button_filled_black">
-                <a href="https://google.com">
-                    <img src="static/img/Appstore.svg" alt="Загрузите в AppStore">
-                </a>
-            </div>
-            <div class="button button_filled_black">
-                <a href="https://google.com">
-                    <img src="static/img/GooglePlay.svg" alt="Доступно в GooglePlay">
-                </a>
-            </div>
-            <div class="button button_filled_black">
-                <a href="https://google.com">
-                    <img src="static/img/Apk.svg" alt="Ссылка на APK">
-                </a>
-            </div>
+        <a class="button button--filled-blue" href="https://google.com">Перейти в мобильное приложение</a>
+        <a class="button button--text" href="https://google.com">Узнать больше о проекте</a>
+        <section class="app-buttons">
+            <a class="app-buttons__link" href="https://google.com">
+                <img src="static/img/Appstore.svg" alt="Загрузите в AppStore">
+            </a>
+            <a class="app-buttons__link" href="https://google.com">
+                <img src="static/img/GooglePlay.svg" alt="Доступно в GooglePlay">
+            </a>
+            <a class="app-buttons__link" href="https://google.com">
+                <img src="static/img/Apk.svg" alt="Ссылка на APK">
+            </a>
         </section>
-    </section>
+    </main>
 </div>
 </body>
 </html>
