@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Light.ttf');
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.title {
+    text-align: center;
+    line-height: 120%;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.48px;
+}
+
+.title--h2-light {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.36px;
+}
+
+.button {
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: -0.38px;
+    line-height: 120%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button--filled-blue {
+    padding: 20px 30px;
+    color: white;
+    background-color: #514FAE;
+    font-weight: 600;
+
+    transition: ease background-color 300ms;
+}
+
+.button--filled-blue:hover {
+    background-color: #413F8B;
+}
+
+.button--text {
+    color: #514FAE;
+    font-weight: 400;
+}
+
+.button--text:hover {
+    color: #413F8B;
+}
+
+
+
